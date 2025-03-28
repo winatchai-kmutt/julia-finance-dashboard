@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "julia-finance-dashboard",
+          "appId": "1:594894379282:android:c1163c09127e126559fbcb",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "julia-finance-dashboard",
+          "appId": "1:594894379282:ios:bd1ba3a72abc0c5f59fbcb",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "julia-finance-dashboard",
+          "configurations": {
+            "android": "1:594894379282:android:c1163c09127e126559fbcb",
+            "ios": "1:594894379282:ios:bd1ba3a72abc0c5f59fbcb",
+            "web": "1:594894379282:web:1d5cdf6f25ecdf5459fbcb"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

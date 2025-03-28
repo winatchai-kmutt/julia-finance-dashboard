@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594894379282",
+    "project_id": "julia-finance-dashboard",
+    "storage_bucket": "julia-finance-dashboard.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594894379282:android:c1163c09127e126559fbcb",
+        "android_client_info": {
+          "package_name": "com.example.financial_dashboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSBDR4wcBlAwRkShzGa3lrhTpMuHAii-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
